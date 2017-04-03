@@ -17,7 +17,7 @@ end
 client.on :message do |data|
   puts data
   case data.text
-  when '!lunch'
+  when /(!lunch)/
     client.message channel: data.channel, text: ["BURGERZ", "Anaveda", "Cosmoveda", "Fish House :fish:", "Mercosy", ":hamburger: :hamburger:", "Chez Michel :fr:", "ottorink weinbar :wine_glass:", "ORA", "Lasan :halalparrot:"].sample
   when /(lunch)|(hungry)/
     client.message channel: data.channel, text: ["Did you say burgers?", "I heard Markthalle 9 has some good burgers.", "A burger a day keeps the doctor away.", "Isn't it Burgersday today?", "Looks like it's the perfect weather for burgers.", "What does the burger forecast say for today?"].sample
