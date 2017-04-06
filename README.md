@@ -1,2 +1,2 @@
-### Lunch Oracle
+### Lunch Oracle [![Build Status](https://travis-ci.org/FrauBienenstich/lunch_oracle.svg?branch=master)](https://travis-ci.org/FrauBienenstich/lunch_oracle)
 A simple slack bot to suggest where to go for lunch, based off `https://github.com/slack-ruby/slack-ruby-client`.
