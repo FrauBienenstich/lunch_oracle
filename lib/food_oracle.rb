@@ -1,5 +1,5 @@
 class FoodOracle
-  LUNCHES = ['BURGERZ', 'Anaveda', 'Cosmoveda', 'Fish House :fish:', 'Mercosy', ':hamburger: :hamburger:', 'Chez Michel :fr:', 'ottorink weinbar :wine_glass:', 'ORA', 'Lasan :halalparrot:', 'Green Rice', 'Royals Vuong', 'Alimentari e Vini :it: :pizza:'].freeze
+  LUNCHES = ['BURGERZ', 'Anaveda', 'Cosmoveda', 'Fish House :fish:', 'Mercosy', ':hamburger: :hamburger:', 'Chez Michel :fr:', 'ottorink weinbar :wine_glass:', 'ORA', 'Lasan :halalparrot:', 'Green Rice :rice:', 'Royals Vuong', 'Alimentari e Vini :it: :pizza:'].freeze
   BURGERS = ['Did you say burgers?', 'I heard Markthalle 9 has some good burgers.', 'A burger a day keeps the doctor away.', "Isn't it Burgersday today?", "Looks like it's the perfect weather for burgers.", 'What does the burger forecast say for today?'].freeze
 
   def initialize(slack)
